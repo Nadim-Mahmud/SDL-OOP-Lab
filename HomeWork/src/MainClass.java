@@ -21,7 +21,7 @@ public class MainClass {
         
         Restroom RS =  new Restroom();
         
-       /// System.out.print("fffffffff");
+       //////// System.out.print("fffffffff");
         
         RS.scan();
         RS.solve();
