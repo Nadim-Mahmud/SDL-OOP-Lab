@@ -6,7 +6,7 @@ public class Solve {
 	
 	public double B,R,C,T0,Tn;
 	
-	public void se(double Bin,double Rin,double Cin,double T0in,double Tnin) {
+	public void set(double Bin,double Rin,double Cin,double T0in,double Tnin) {
 		
 		B = Bin;
 		R = Rin;
