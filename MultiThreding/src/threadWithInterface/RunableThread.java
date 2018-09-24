@@ -13,7 +13,7 @@ public class RunableThread implements Runnable {
 	public void run() {
 	
 		try {
-			for(int i=1;i<=10;i++) {
+			for(int i=1;i<=10&&!Thread.interrupted();i++) {
 				
 				Date now = new Date();	
 				System.out.println(str + " " + now);
