@@ -1,8 +1,10 @@
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Stream;
 
 public class FourthAllDisticnt {
@@ -16,7 +18,7 @@ public class FourthAllDisticnt {
 			Stream<String> words = Files.lines(Paths.get("input.txt"));
 			
 			words.forEach(st -> {
-				distinct.add(st);
+				if(st.length()<=4)distinct.add(st);
 			});
 			
 //		    words
@@ -29,7 +31,11 @@ public class FourthAllDisticnt {
 			e.printStackTrace();
 		}
 		
-		System.out.println(distinct);
+		TreeSet myTreeSet = new TreeSet();
+		myTreeSet.addAll(distinct);
+		System.out.println(myTreeSet); 
+		
+		//System.out.println(distinct);
 	}
 
 }
