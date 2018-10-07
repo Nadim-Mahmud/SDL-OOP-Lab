@@ -7,6 +7,8 @@ public class main {
 		
 		System.out.println("19.1 : " + the.counter());
 		System.out.println("19.2 : " + new TheInFullFile().counter());
+		System.out.println("19.3 : ");
+		new ThirdPrintAllLineContainsThe().print();
 
 	}
 
