@@ -7,6 +7,15 @@ public class Fifth {
 	
 	public static <T> String toString(Stream<T> stream, int n) {
 		
+		String [] st = new String[10000];
+		
+		int in=0;
+		
+		stream.forEach(str,) ->{
+			st[in] = (String) str;
+			
+		});
+		
 	}
 	
 	public void print(){
