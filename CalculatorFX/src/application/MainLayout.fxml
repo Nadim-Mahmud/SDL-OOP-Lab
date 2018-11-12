@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <SplitPane dividerPositions="0.25252525252525254" layoutX="-7.0" orientation="VERTICAL" prefHeight="392.0" prefWidth="316.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TextField layoutX="7.0" layoutY="6.0" prefHeight="87.0" prefWidth="303.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="297.0" prefWidth="295.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="29.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="0" />
+                  <Button layoutX="84.0" layoutY="29.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="00" />
+                  <Button layoutX="157.0" layoutY="29.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="\%" />
+                  <Button layoutX="248.0" layoutY="29.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="Clear" textFill="#bf0b0b" />
+                  <Button layoutX="14.0" layoutY="80.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="84.0" layoutY="80.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="157.0" layoutY="80.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="145.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="84.0" layoutY="145.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="157.0" layoutY="145.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="84.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="8">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="157.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="59.0" text="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="CENTER" graphicTextGap="6.0" layoutX="248.0" layoutY="67.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="+" textFill="#bf0b0b" />
+                  <Button layoutX="248.0" layoutY="111.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="-" textFill="#bf0b0b" />
+                  <Button layoutX="248.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="X" textFill="#bf0b0b" />
+                  <Button layoutX="248.0" layoutY="198.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="/" textFill="#bf0b0b" />
+                  <Button layoutX="246.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="=" textFill="#bf0b0b" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
