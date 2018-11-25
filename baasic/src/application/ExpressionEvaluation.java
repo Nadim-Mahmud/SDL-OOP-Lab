@@ -1,19 +1,11 @@
 package application;
-	
+
 import java.util.Stack;
 
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.stage.Stage;
-import model.Functions;
-import model.Utility;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javax.rmi.CORBA.Util;
 
-
-public class Main extends Application {
-	
+public class ExpressionEvaluation 
+{	
 	private static double result;
 	private static Stack<Double> st = new Stack<>();
 	
@@ -90,24 +82,5 @@ public class Main extends Application {
 		while (!stack.isEmpty()) postfixEvaluation(stack.pop());
 
 		return st.pop();
-	}
-	public static void main(String[] args) {
-		//launch(args);
-//		n += 1.0;
-//		System.out.println(n);
-//		String exp = "a+b*(c^d-e)^(f+g*h)-i";
-//		System.out.println(infixToPostfix(exp));
-//		String exp = "(4+(4-6)+4+7444.444+5[5])";
-//		double dbb = 1000000;
-//		System.out.println(dbb);
-//		System.out.println(isValidExpression(exp));
-		String exp = "(4+5-6)";
-		System.out.println(infixToPostfix(exp));
-	}
-
-	@Override
-	public void start(Stage primaryStage) throws Exception {
-		// TODO Auto-generated method stub
-		
 	}
 }
