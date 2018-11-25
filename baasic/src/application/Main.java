@@ -162,7 +162,6 @@ public class Main extends Application {
 
 	public static void main(String[] args) {
 		//launch(args);
-//		double n =  Double.parseDouble("123.124444");
 //		n += 1.0;
 //		System.out.println(n);
 //		String exp = "a+b*(c^d-e)^(f+g*h)-i";
