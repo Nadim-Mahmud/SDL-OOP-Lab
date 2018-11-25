@@ -19,9 +19,7 @@ class UnitTest {
 		assertEquals(tc.BuyTicket(5), 50);
 		assertEquals(tc.BuyTicket(20), 30);
 		assertEquals(tc.BuyTicket(20), 10);	
-		assertEquals(tc.BuyTicket(10), 0);
-		
-		
+		assertEquals(tc.BuyTicket(10), 0);	
 	}
-
 }
+//1695
