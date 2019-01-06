@@ -2,10 +2,12 @@ package main;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.Scanner;
 
 public class DataTypes {
 	
 	DataTypes(){
+		
 		//      Int Data Types
 		
 		
@@ -64,5 +66,42 @@ public class DataTypes {
 		/*
 		 *  "Nadim" Calls string literal
 		 */
+		
+		/*
+		 * Concatanation
+		 */
+		String jobTitle = "Agent"; 
+		int employeeId = 7; 
+		String bond = jobTitle + employeeId;//int will convert into string
+		System.out.println(bond);
+		
+		/*
+		 * String Input
+		 * The sequence \" is called an escape sequence.
+		 * to print this use \\
+		 */
+		Scanner sc = new Scanner(System.in);
+		//String name = sc.next(); 
+		//System.out.println(name);
+		
+		/*
+		 * Accessing charecter
+		 */
+		String name = "Harry"; 
+		char start = name.charAt(0); 
+		
+		/*
+		 * Substring
+		 * spacify the starting and ending position
+		 * if starting index is larger than string than it is exception
+		 */
+		String greeting = "Hello, World!"; 
+		String sub = greeting.substring(0, 5); // sub is "Hello" 
+		String tail = greeting.substring(7); // Copies all characters from position 7 on 
+		System.out.println(sub);
+		System.out.println(tail);
+		
+		
+		
 	}
 }
