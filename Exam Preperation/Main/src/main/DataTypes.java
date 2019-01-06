@@ -3,11 +3,10 @@ package main;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class Main {
-
-	public static void main(String[] args) {
-		
-		//         Int Data Types
+public class DataTypes {
+	
+	DataTypes(){
+		//      Int Data Types
 		
 		
 		//Charecter in unicode in Java So 2 Byte
@@ -62,6 +61,8 @@ public class Main {
 		
 		//          String Data Types
 		
+		/*
+		 *  "Nadim" Calls string literal
+		 */
 	}
-
 }
