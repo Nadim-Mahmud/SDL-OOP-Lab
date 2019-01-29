@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class DataTypes {
 	
-	DataTypes(){
+	public DataTypes(){
 		
 		//      Int Data Types
 		
@@ -102,6 +102,17 @@ public class DataTypes {
 		System.out.println(tail);
 		
 		//changeble class
+		
+		/**
+		 * if it dont found the replaceable part on the string then it will replace nothing
+		 * Repalce string
+		 */
+		
+		String name1 = new String("Hurry");
+		String pr = new String();
+		pr = name1.replace("ry","nadim");
+		System.out.println(pr);
+		
 		
 	}
 }
